@@ -68,5 +68,13 @@ def test_number(page: Page):
     page.locator("#password").fill("Password123")
     page.locator("#submit").click()
 
+# Test case 8
+def test_number_password(page: Page):
+    page.goto(URL)
+
+    page.locator("#username").fill("123456")
+    page.locator("#password").fill("12345")
+    page.locator("#submit").click()
+
 
 
