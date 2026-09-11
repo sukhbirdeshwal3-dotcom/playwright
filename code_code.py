@@ -60,6 +60,13 @@ def test_invalid_username_valid_password(page: Page):
     page.locator("#password").fill("Password123")
     page.locator("#submit").click()
 
+# Test case 6
+def test_number(page: Page):
+    page.goto(URL)
+
+    page.locator("#username").fill("123456")
+    page.locator("#password").fill("Password123")
+    page.locator("#submit").click()
 
 
 
