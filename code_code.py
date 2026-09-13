@@ -81,7 +81,7 @@ def test_number_username(page: Page):
     page.goto(URL)
 
     page.locator("#username").fill("123456avbc")
-    page.locator("#password").fill("12345")
+    page.locator("#password").fill("12345adfvb")
     page.locator("#submit").click()
 
 
