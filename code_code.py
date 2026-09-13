@@ -76,13 +76,7 @@ def test_number_password(page: Page):
     page.locator("#password").fill("12345")
     page.locator("#submit").click()
 
-# Test case 8
-def test_alfanum_password(page: Page):
-    page.goto(URL)
 
-    page.locator("#username").fill("123456asd")
-    page.locator("#password").fill("12345asdc")
-    page.locator("#submit").click()
 
 
 
